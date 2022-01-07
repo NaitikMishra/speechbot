@@ -1,0 +1,113 @@
+body {
+  background: cyan;
+}
+
+.topbar {
+  background: #d8c6c6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 10vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 2px grey;
+          box-shadow: 0 2px 2px grey;
+  border-bottom: 2px solid grey;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+p {
+  margin: 5px;
+  font-size: large;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 84vh;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  min-width: 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 2px grey;
+          box-shadow: 0 2px 2px grey;
+  border-bottom: 2px solid grey;
+}
+
+.chatarea {
+  background: #a7acb1;
+  width: 85%;
+  height: 100%;
+  max-width: 800px;
+  min-width: 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 2px grey;
+          box-shadow: 0 2px 2px grey;
+  border-bottom: 2px solid grey;
+}
+
+.bottombar {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #c4def3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 2px grey;
+          box-shadow: 0 2px 2px grey;
+  border-bottom: 2px solid grey;
+}
+
+.social-icons :hover {
+  background: chartreuse;
+}
+
+a {
+  margin: 4px;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 24px;
+  right: 23vw;
+  bottom: 8vh;
+  position: absolute;
+}
+
+/*.humanmic{
+    width: 54%;
+    top: 100px;
+    position: absolute;
+    background-color: lightblue;
+}*/
+/*# sourceMappingURL=main.css.map */

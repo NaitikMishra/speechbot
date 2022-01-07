@@ -1,0 +1,80 @@
+body{
+    background: cyan;
+}
+.topbar{
+    background: rgb(216, 198, 198);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 10vh;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px grey;
+    border-bottom: 2px solid grey;
+    align-items: center;
+}
+p{
+    margin: 5px;
+    font-size: large;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 84vh;
+}
+img{
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    min-width: 100px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px grey;
+    border-bottom: 2px solid grey;
+}
+.chatarea{
+    background: rgb(167, 172, 177);
+    width: 85%;
+    height: 100%;
+    max-width: 800px;
+    min-width: 100px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px grey;
+    border-bottom: 2px solid grey;
+}
+.bottombar{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: rgb(196, 222, 243);
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px grey;
+    border-bottom: 2px solid grey;
+}
+.social-icons{
+    :hover{
+        background: chartreuse;
+    }
+}
+a{
+    margin: 4px;
+}
+footer{
+    position: absolute;
+    right: 0;
+}
+button{
+    border-radius: 8px;
+    font-size: 24px;
+    right: 23vw;
+    bottom: 8vh;
+    position: absolute;
+}
+/*.humanmic{
+    width: 54%;
+    top: 100px;
+    position: absolute;
+    background-color: lightblue;
+}*/
